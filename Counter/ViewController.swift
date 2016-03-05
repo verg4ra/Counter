@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var counter: Counter!
+    var count = 0
     
     @IBOutlet weak var countLabel: UILabel!
     
@@ -18,22 +18,21 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        counter = Counter()
         updateLabel()
     }
 
     @IBAction func countUp() {
-        counter.increment()
+        count++
         updateLabel()
     }
 
     @IBAction func countDown() {
-        counter.decrement()
+        count--
         updateLabel()
     }
     
     func updateLabel() {
-        countLabel.text = String(counter.count)
+        countLabel.text = String(count)
     }
 }
 

@@ -24,6 +24,9 @@
                                         <rect key="frame" x="0.0" y="0.0" width="42" height="63"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                         <state key="normal" title="➕"/>
+                                        <connections>
+                                            <action selector="countUp" destination="BYZ-38-t0r" eventType="touchUpInside" id="5QO-Jh-x7H"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3FU-5O-Mcp">
                                         <rect key="frame" x="8" y="63" width="26" height="51"/>
@@ -35,6 +38,9 @@
                                         <rect key="frame" x="0.0" y="114" width="42" height="63"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                         <state key="normal" title="➖"/>
+                                        <connections>
+                                            <action selector="countDown" destination="BYZ-38-t0r" eventType="touchUpInside" id="9A2-kB-Upr"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -45,6 +51,9 @@
                             <constraint firstItem="HfT-H6-ITN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3Vo-ge-Olv"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="countLabel" destination="3FU-5O-Mcp" id="iXu-ke-h7Y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

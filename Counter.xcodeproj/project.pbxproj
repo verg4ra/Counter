@@ -12,7 +12,6 @@
 		0976D0661C8A9D0C0075B1DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0976D0641C8A9D0C0075B1DF /* Main.storyboard */; };
 		0976D0681C8A9D0C0075B1DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0976D0671C8A9D0C0075B1DF /* Assets.xcassets */; };
 		0976D06B1C8A9D0C0075B1DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0976D0691C8A9D0C0075B1DF /* LaunchScreen.storyboard */; };
-		0976D0731C8AA0180075B1DF /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0976D0721C8AA0180075B1DF /* Counter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +22,6 @@
 		0976D0671C8A9D0C0075B1DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0976D06A1C8A9D0C0075B1DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0976D06C1C8A9D0C0075B1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0976D0721C8AA0180075B1DF /* Counter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +56,6 @@
 			children = (
 				0976D0601C8A9D0C0075B1DF /* AppDelegate.swift */,
 				0976D0621C8A9D0C0075B1DF /* ViewController.swift */,
-				0976D0721C8AA0180075B1DF /* Counter.swift */,
 				0976D0641C8A9D0C0075B1DF /* Main.storyboard */,
 				0976D0671C8A9D0C0075B1DF /* Assets.xcassets */,
 				0976D0691C8A9D0C0075B1DF /* LaunchScreen.storyboard */,
@@ -140,7 +137,6 @@
 			files = (
 				0976D0631C8A9D0C0075B1DF /* ViewController.swift in Sources */,
 				0976D0611C8A9D0C0075B1DF /* AppDelegate.swift in Sources */,
-				0976D0731C8AA0180075B1DF /* Counter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
